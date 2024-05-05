@@ -153,7 +153,7 @@ Devam etmek için CTRL+C ile logları durduralım
 ```
 service arkeod status
 ```
-Not: Eğer düzgün çalışıyorsa "active (running) yazar
+Not: Eğer düzgün çalışıyorsa "active (running)" yazar
 
 
 #### Cüzdan Oluşturalım
