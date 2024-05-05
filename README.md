@@ -142,6 +142,12 @@ sudo systemctl enable arkeod
 sudo systemctl start arkeod
 ```
 
+Logları görmek isterseniz:
+```
+journalctl -u arkeod -f -o cat
+```
+Devam etmek için CTRL+C ile logları durduralım
+
 
 #### Nodumuzu Kontrol Edelim
 ```
@@ -158,11 +164,11 @@ source $HOME/.bash_profile
 arkeod keys add WalletName
 ```
 
-Discorda girip faucetten token isteyin. https://discord.com/invite/BfEHpm6uFc linke tıkladıktan sonra verify yapın ve validatör tes rolünü seçin. Faucet görünür olacaktır.
+Discorda girip faucetten token isteyin. https://discord.com/invite/BfEHpm6uFc linke tıkladıktan sonra verify yapın ve validatör test rolünü seçin. Faucet görünür olacaktır.
 
 
 
-Faucet kanalına $request WalletAddress şeklinde mesaj atın, kısa sürede tokenler gelecektir. (WalletName kısmına kendi cüzdan adresinizi yazın)
+Faucet kanalına $request WalletAddress şeklinde mesaj atın, kısa sürede tokenler gelecektir. (WalletAddress kısmına kendi cüzdan adresinizi yazın)
 
 
 Tokenler geldikten ve ağla senkronize olduktan sonra validatör oluşturabiliriz. Senkron durumunu alttaki kodla kontrol edelim. Çıktımız "false" olmalı
