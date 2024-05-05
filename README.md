@@ -45,7 +45,7 @@ go version
 ```
 
 
-#### Binary Doayasını Yükleyelim
+#### Binary Dosyasını Yükleyelim
 
 
 NodesGuru'nun binary dosyasını kullandım
@@ -114,7 +114,7 @@ arkeod tendermint unsafe-reset-all
 
 #### Snapshot İndirelim
 
-Polkachu'nun snapshotını kullandım
+Polkachu'nun snapshot'ını kullandım
 ```
 curl https://snapshots.polkachu.com/testnet-snapshots/arkeo/arkeo_3873468.tar.lz4 | lz4 -dc - | tar -xvf - -C $HOME/.arkeo
 ```
