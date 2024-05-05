@@ -155,6 +155,8 @@ service arkeod status
 ```
 Not: Eğer düzgün çalışıyorsa "active (running)" yazar
 
+![Ekran görüntüsü 2024-05-05 193907](https://github.com/Cryptograsi/Arkeo/assets/101165594/3ac78686-d4c5-4355-b4d2-97ea008538ac)
+
 
 #### Cüzdan Oluşturalım
 
